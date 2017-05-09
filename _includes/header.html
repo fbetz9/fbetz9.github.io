@@ -1,0 +1,7 @@
+<nav>
+	<ul class='navbar'>
+		<li><a title="Home" href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+        <li><a title="Resources" href="/resources.html" {% if page.url == "/resources.html" %}class="active"{% endif %}>Resources</a></li>
+        <li><a title="Contact" href="/contact.html" {% if page.url == "/contact.html" %}class="active"{% endif %}>Contact</a></li>
+    </ul>
+</nav>

@@ -1,0 +1,81 @@
+body {
+	background-color:#ffffaa;
+	font-family: arial, sans-serif;
+}
+button {
+	width: 35px;
+	height: 450px;
+}
+h1, h2 {
+	font-family: Times;
+	color:#800020;
+}
+h3 a {
+	text-decoration:none;
+}
+.active {
+	color:#800020;
+	font-weight: bold;
+}
+.contact {
+	max-width: 600px;
+}
+.fig {
+    background-color:#ffffff;
+    max-height: 100%;
+	max-width: 100%;
+}
+.left-arrow {
+	height: 0px;
+	width: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid gray;
+}
+.navbar {
+	list-style-type: none;
+	border-bottom: 2px solid #000000;
+	padding-bottom: 10px;
+}
+.navbar li {
+	color:#000000;
+	display: inline;
+	margin: 25px;
+}
+.navbar li a {
+	text-decoration:none;
+}
+.resources li {
+	margin: 25px;
+}
+.right-arrow {
+	height: 0px;
+	width: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid gray;
+}
+.site-content {
+	max-width:1060px;
+}
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 450px;
+	margin: 20px 0px 20px 0px;
+}
+#left {
+    margin: 0 5px 0 0;
+    min-width: 600px;
+    max-width: 600px;
+    height: 450px;
+    overflow: hidden;
+}
+#right {
+    margin: 0 5px 0 0;
+    min-width:410px;
+    width: 420px;
+    height: 450px;
+    overflow: hidden;
+}
