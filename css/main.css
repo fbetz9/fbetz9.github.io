@@ -20,6 +20,9 @@ h3 a {
 .contact {
 	max-width: 600px;
 }
+.encrypted-mail:after{
+	content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
 .fig {
     background-color:#ffffff;
     max-height: 100%;
